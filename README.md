@@ -11,15 +11,19 @@ Download the latest release [here](https://github.com/benjaminheng/interfacelift
 ## Usage
 
 ```
-python interfacelift-downloader.py [-d DEST] [-t THREADS] [-o] [resolution]
+python interfacelift-downloader.py [-d DEST] [-t THREADS] [-o] [resolution] [-q | -v]
 ```
 
 If not specified, the default parameters used are:
 
 - Resolution: `1920x1080`
 - Destination Directory: `./wallpapers`
-- Threads: `4`
+- Threads: `1`
 - Overwrite: `disabled`
+- Quiet mode: `disabled`
+- Verbose mode: `disabled`
+
+If verbose mode is enabled it will disable quiet mode.
 
 To list available resolutions:
 
